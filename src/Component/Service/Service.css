@@ -1,0 +1,84 @@
+.sevice-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+.left {
+  width: 70%;
+  margin-right: 30px;
+}
+.left h3 {
+  margin-bottom: 30px;
+}
+.left img {
+  width: 100%;
+  height: 400px;
+}
+.archive {
+  margin-top: 30px;
+}
+.price {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.pri {
+  margin-bottom: 40px;
+}
+.right {
+  width: 30%;
+}
+.right p {
+  text-align: center;
+}
+.serch-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.reg {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.reg-btn {
+  margin: 10px;
+  border: none;
+}
+.recent {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.recom {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.right-img {
+  width: 100%;
+  height: 200px;
+}
+.rec-para {
+  text-align: justify;
+}
+.rec-link {
+  text-decoration: none;
+  color: rgb(54, 53, 53);
+  font-size: 15px;
+}
+@media only screen and (max-width: 992px) {
+  .sevice-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .left {
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid gray;
+  }
+  .right {
+    width: 90%;
+  }
+}

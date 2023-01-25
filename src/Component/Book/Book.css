@@ -1,0 +1,55 @@
+.books-container {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.mid {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.book {
+  margin-bottom: 30px;
+}
+
+.top img {
+  width: 100%;
+  height: 350px;
+}
+.top h3 {
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgb(36, 36, 36);
+}
+.top p {
+  margin-left: 20px;
+  margin-right: 15px;
+  text-align: justify;
+}
+.mid,
+.bottom,
+.upbottom {
+  margin-left: 20px;
+  margin-right: 15px;
+}
+.mid {
+  margin-right: 20px;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+}
+.upbottom {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.upbottom p {
+  text-align: justify;
+}
+
+.bottom button {
+  margin-right: 30px;
+  background-color: aquamarine;
+  padding: 10px 15px;
+  border: none;
+  font-weight: 500;
+}

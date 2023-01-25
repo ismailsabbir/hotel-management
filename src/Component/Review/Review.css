@@ -1,0 +1,39 @@
+.review-hole {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.review-hole h3 {
+  text-align: center;
+  margin-top: 70px;
+}
+.reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review-left img {
+  border: 1px solid rgb(201, 197, 197);
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.right {
+  margin-top: 180px;
+}
+.right p {
+  text-align: justify;
+}
+@media only screen and (max-width: 992px) {
+  .reviews {
+    width: 80%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .right {
+    margin-top: 0px;
+  }
+}
